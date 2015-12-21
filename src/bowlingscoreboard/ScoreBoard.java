@@ -1,5 +1,6 @@
 package bowlingscoreboard;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -52,7 +53,7 @@ public class ScoreBoard {
         return currentFrameScore;
     }
     
-    public void printBoard() {
+    public void printFrame(int index) throws IOException {
         System.out.println("+---+---+---+---+------+");
         System.out.printf("|%3s|%3s|%3s|%3s|%6s|%n", "FR", "R1", "R2", "R3", "Score");
             

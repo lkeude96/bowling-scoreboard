@@ -5,6 +5,8 @@ package bowlingscoreboard;
  * @author Kinsley
  */
 public class Frame {
+    public static final int MAX_PINS = 10;
+    public static final int MAX_FRAMES = 10;
     
     private int firstRoll;
     private int secondRoll;
